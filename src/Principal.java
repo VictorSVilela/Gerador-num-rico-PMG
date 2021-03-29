@@ -254,8 +254,8 @@ public class Principal extends javax.swing.JFrame {
     private void jMenuItemZerarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemZerarActionPerformed
         
         UIManager.put("OptionPane.messageFont", new FontUIResource(new Font("ARIAL", Font.PLAIN, 20)));
-        String usuario = "m974714";
-        String senha = "marcelo1";
+        String usuario = "";
+        String senha = "";
         
         String usuDigitado = JOptionPane.showInputDialog("Digite o Usuário");
         String senhaDigitada = JOptionPane.showInputDialog("Digite o senha");
